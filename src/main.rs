@@ -12,7 +12,7 @@ struct Args {
     #[arg(help = "The input string to expand. If not provided, the program will read from STDIN until EOF.")]
     input: Option<String>,
 
-    #[arg(short, long = "variables", help = "One or more custom variables to use in the expansion. Each variable should be in the format NAME=VALUE.")]
+    #[arg(short, long = "variable", help = "One or more custom variables to use in the expansion. Each variable should be in the format NAME=VALUE.")]
     variables: Vec<String>,
 
     #[arg(short, long, help = "Only use the variables provided with the --variables flag, ignoring any environment variables.")]

@@ -1,6 +1,6 @@
 [package]
 name = "envexpand"
-version = "1.0.1"
+version = "2.0.0"
 description = "A simple, tiny program to expand environment variables in a string."
 edition = "2024"
 readme = "README.txt"
